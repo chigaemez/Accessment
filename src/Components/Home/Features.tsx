@@ -1,6 +1,8 @@
 
 import { motion } from 'framer-motion'
-import { features, type Feature } from '../../Data/Data'
+import { features } from '../../Data/Data'
+import type { Feature } from '../../Data/Type'
+
 
 const Features = () => {
   return (
@@ -29,7 +31,7 @@ const Features = () => {
               alt={feature.title}
               className='w-[32px] h-[32px] md:w-[60px]  md:h-[60px] mb-2'
             />
-            <h2 className='text-[10px] font-popmedium font-[500] text-[#000000] leading-[100%] mt-2'>
+            <h2 className='text-[10px] font-popmedium font-[500] text-[#0D0E0E] leading-[100%] mt-2'>
               {feature.title}
             </h2>
           </motion.div>
