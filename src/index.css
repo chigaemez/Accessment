@@ -24,6 +24,10 @@
   font-family:Poplight;
   src: url("/Poppins/Poppins-Light.ttf") format("truetype");
 }
+@font-face {
+  font-family:PopRegular;
+  src: url("/Poppins/Poppins-Regular.ttf") format("truetype");
+}
 
 @theme {
   --font-popbold: PopBold, sans-serif;
@@ -32,6 +36,7 @@
   --font-popextrabold: PopExBold, sans-serif;
   --font-popmedium: Popmedium, sans-serif;
   --font-poplight: Poplight, sans-serif;
+  --font-PopRegular: PopRegular, sans-serif;
 }
 
 :root {

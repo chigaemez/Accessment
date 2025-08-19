@@ -3,6 +3,12 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router'
 import './index.css'
 import App from './App.tsx'
+import { makeServer } from './Data/Mirage.ts'
+
+if (import.meta.env.MODE === "development") {
+  makeServer();
+}
+
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
