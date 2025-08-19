@@ -20,3 +20,10 @@ export interface Feature {
   title: string;
   img: string;
 }
+ 
+export interface PopupState {
+  isOpen: boolean;
+  openPopup: () => void;
+  closePopup: () => void;
+  togglePopup: () => void;
+}
