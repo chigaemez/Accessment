@@ -22,12 +22,12 @@ const Features = () => {
             initial={{ opacity: 1, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             key={idx}
-            className='flex flex-col items-center justify-center flex-shrink-0 w-[84px] h-[72px] rounded-[14px] bg-white'
+            className='flex flex-col items-center justify-center flex-shrink-0 w-[84px] h-[72px] md:w-[140px] md:h-[130px] rounded-[14px] bg-white'
           >
             <img
               src={feature.img}
               alt={feature.title}
-              className='w-[32px] h-[32px]'
+              className='w-[32px] h-[32px] md:w-[60px]  md:h-[60px] mb-2'
             />
             <h2 className='text-[10px] font-popmedium font-[500] text-[#000000] leading-[100%] mt-2'>
               {feature.title}

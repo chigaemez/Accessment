@@ -1,16 +1,8 @@
 import { shop } from '../assets/icons';
 import { harddrive, Motherboard, ram } from '../assets/images';
+import type { Card, Feature } from './Type';
 
-export interface Card {
-  title: string;
-  desc: string;
-  img: string;
-}
 
-export interface Feature {
-  title: string;
-  img: string;
-}
 
 export const cards: Card[] = [
   {

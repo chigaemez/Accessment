@@ -14,9 +14,9 @@ const Home = () => {
   }, [])
   return (
     <div className='flex flex-col items-center mt-[150px]  md:px-[90px] px-[10px]'>
-      <div className='relative w-full  overflow-hidden'>
+      <div className='relative w-full  overflow-hidden rounded-[14px]'>
         <div
-          className='flex transition-transform duration-700 ease-in-out'
+          className='flex transition-transform duration-700 ease-in-out rounded-[14px]'
           style={{ transform: `translateX(-${current * 100}%)` }}
         >
           {cards.map((card: Card, idx: number) => (
