@@ -27,3 +27,10 @@ export interface PopupState {
   closePopup: () => void;
   togglePopup: () => void;
 }
+
+export interface ChristmasItem {
+  title: string;
+  price: string;
+  img: string;
+  rating: number;
+}

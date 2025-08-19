@@ -1,8 +1,14 @@
 import { shop } from '../assets/icons';
-import { harddrive, Motherboard, ram } from '../assets/images';
+import {
+  accessories,
+  chair,
+  chrismasShoe,
+  harddrive,
+  Motherboard,
+  ram,
+  towel,
+} from '../assets/images';
 import type { Card, Feature } from './Type';
-
-
 
 export const cards: Card[] = [
   {
@@ -33,5 +39,32 @@ export const features: Feature[] = [
   {
     title: 'Motherboard',
     img: Motherboard,
+  },
+];
+
+export const christmasItems = [
+  {
+    title: 'Wall Mounted 6u Rack - 600 X 450',
+    price: '$58,000',
+    img: chair,
+    rating: 4.5,
+  },
+  {
+    title: 'Wall Mounted 6u Rack - 600 X 450',
+    price: '$58,000',
+    img: chrismasShoe,
+    rating: 4.5,
+  },
+  {
+    title: 'Wall Mounted 6u Rack - 600 X 450',
+    price: '$58,000',
+    img: accessories,
+    rating: 4.5,
+  },
+  {
+    title: 'Wall Mounted 6u Rack - 600 X 450',
+    price: '$58,000',
+    img: towel,
+    rating: 4.5,
   },
 ];
