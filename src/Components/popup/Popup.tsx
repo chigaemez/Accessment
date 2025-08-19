@@ -55,7 +55,7 @@ const Popup = () => {
           transition={{ duration: 0.4 }}
           className='flex flex-col rounded-[24px] w-full border-[1px] p-[8px] gap-[8px]  bg-[#FFF0E8] border-[#FFE5D7]  mt-[20px] items-center justify-center'
         >
-          <div className='flex flex-col rounded-[16px] border-[1px]  border-[#FFFFFF] p-[16px] gap-[8px] popupcard  bg-[#ffffff99] w-full '>
+          <div className='flex flex-col rounded-[16px] border-[1px] overflow-y-scroll  border-[#FFFFFF] p-[16px] gap-[24px] popupcard  bg-[#ffffff99] w-full '>
             <div className='flex flex-col gap-[24px] w-full'>
               <div className='flex w-[142px] h-[22px] rounded-[38px] py-[4px] px-[8px] gap-[8px] bg-[#FFD7DF]'>
                 <img src={christmas} alt='' />
@@ -89,7 +89,7 @@ const Popup = () => {
                     </p>
 
                     <p className='text-[10px] flex items-center  font-[600] font-popsemibold leading-[100%] text-[#20262C]'>
-                      <img src={rating} alt="" />
+                      <img src={rating} alt='' />
                       {item.rating}{' '}
                       <span className='text-[#6A7383]'>(188)</span>
                     </p>
@@ -101,6 +101,19 @@ const Popup = () => {
                 <img src={chrismasButton} alt='' />
                 Buy Now
               </button>
+            </div>
+
+            <div className='flex flex-col gap-[24px] w-full '>
+              <div className='flex w-[142px] h-[22px] rounded-[38px] py-[4px] px-[8px] gap-[8px] bg-[#FFD7DF]'>
+                <img src={christmas} alt='' />
+                <h1 className='text-[12px] font-popmedium font-[500] text-[#DF1B41] leading-[100%]'>
+                  Christams Items
+                </h1>
+              </div>
+              <p className='text-[14px] font-[400] font-popregular text-[#20262C] leading-[100%]'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et .
+              </p>
             </div>
           </div>
         </motion.div>
