@@ -1,0 +1,6 @@
+export { default as menu } from './menu.svg'
+export { default as Store } from './Store.svg'
+export { default as notification } from './notification.svg'
+export { default as profile } from './profile.svg'
+export { default as search } from './search.svg'
+export { default as shop } from './shop.svg'

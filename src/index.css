@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family:PopBold;
+  src: url("/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family:PopSemiBold;
+  src: url("/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family:PopBlack;
+  src: url("/Poppins/Poppins-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family:PopExBold;
+  src: url("/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family:Popmedium;
+  src: url("/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family:Poplight;
+  src: url("/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+@theme {
+  --font-popbold: PopBold, sans-serif;
+  --font-popsemibold: PopSemiBold, sans-serif;
+  --font-popblack: PopBlack, sans-serif;
+  --font-popextrabold: PopExBold, sans-serif;
+  --font-popmedium: Popmedium, sans-serif;
+  --font-poplight: Poplight, sans-serif;
+}
+
+:root {
+  background-color:#ebf0f4 ;
+  font-family: poppins, sans-serif;
+}
+
+@keyframes carousel {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-carousel {
+  animation: carousel 8s linear infinite;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
