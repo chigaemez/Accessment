@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import { cards } from '../../Data/Data'
-import type { Card } from '../../Data/Data'
 import { motion } from 'framer-motion'
+import { usePopupStore } from '../../Stores/PopupStore'
+import type { Card } from '../../Data/Type'
 
 const Home = () => {
   const [current, setCurrent] = useState<number>(0)
+  const { openPopup } = usePopupStore();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -13,7 +15,7 @@ const Home = () => {
     return () => clearInterval(interval)
   }, [])
   return (
-    <div className='flex flex-col items-center mt-[150px]  md:px-[90px] px-[10px]'>
+    <div onClick={openPopup} className='flex flex-col items-center mt-[150px]  md:px-[90px] px-[10px]'>
       <div className='relative w-full  overflow-hidden rounded-[14px]'>
         <div
           className='flex transition-transform duration-700 ease-in-out rounded-[14px]'

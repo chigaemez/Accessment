@@ -3,8 +3,12 @@ import {
   accessories,
   chair,
   chrismasShoe,
+  dress,
+  femaleshow,
   harddrive,
   Motherboard,
+  oven,
+  purplebag,
   ram,
   towel,
 } from '../assets/images';
@@ -65,6 +69,35 @@ export const christmasItems = [
     title: 'Wall Mounted 6u Rack - 600 X 450',
     price: '$58,000',
     img: towel,
+    rating: 4.5,
+  },
+];
+
+
+
+export const nextProduct = [
+  {
+    title: 'Wall Mounted 6u Rack - 600 X 450',
+    price: '$58,000',
+    img: oven,
+    rating: 4.5,
+  },
+  {
+    title: 'Wall Mounted 6u Rack - 600 X 450',
+    price: '$58,000',
+    img: dress,
+    rating: 4.5,
+  },
+  {
+    title: 'Wall Mounted 6u Rack - 600 X 450',
+    price: '$58,000',
+    img: purplebag,
+    rating: 4.5,
+  },
+  {
+    title: 'Wall Mounted 6u Rack - 600 X 450',
+    price: '$58,000',
+    img: femaleshow,
     rating: 4.5,
   },
 ];

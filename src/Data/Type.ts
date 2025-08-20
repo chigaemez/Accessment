@@ -34,3 +34,10 @@ export interface ChristmasItem {
   img: string;
   rating: number;
 }
+
+export interface NextProduct {
+  title: string;
+  price: string;
+  img: string;
+  rating: number;
+}
