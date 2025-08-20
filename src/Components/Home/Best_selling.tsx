@@ -8,8 +8,8 @@ const Best_selling = () => {
     fetch('/api/products')
       .then(res => res.json())
       .then((data: ProductResponse) => {
-        console.log('Response', data) // { products: [...] }
-        setProducts(data.products) // ✅ store the array
+        console.log('Response', data) 
+        setProducts(data.products) 
       })
   }, [])
   return (
