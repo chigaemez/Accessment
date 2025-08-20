@@ -76,7 +76,7 @@ const Popup = () => {
           transition={{ duration: 0.4 }}
           className='flex flex-col rounded-[24px] w-full  md:w-[60%] border-[1px]  p-[8px] gap-[8px]  bg-[#FFF0E8] border-[#FFE5D7]  mt-[20px] items-center justify-center no-scrollbar overflow-scroll'
         >
-          <div className='flex flex-col rounded-[16px] border-[1px] md:mt-[150px] mt-[180px]   border-[#FFFFFF] p-[16px] gap-[24px] popupcard  bg-[#ffffff99] w-full '>
+          <div className='flex flex-col rounded-[16px] border-[1px] md:mt-[650px] lg:mt-[630px] xl:mt-[580px] 2xl:mt-[490px] mt-[680px]   border-[#FFFFFF] p-[16px] gap-[24px] popupcard  bg-[#ffffff99] w-full '>
             <div className='flex flex-col gap-[24px] w-full'>
               <div className='flex w-[142px] h-[22px] rounded-[38px] py-[4px] px-[8px] gap-[8px] bg-[#FFD7DF]'>
                 <img src={christmas} alt='' />
