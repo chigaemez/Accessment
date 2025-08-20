@@ -13,6 +13,6 @@ export { default as accessories } from './accessories.jpg';
 export { default as chrismasShoe } from './chrismasShoe.jpg';
 export { default as towel } from './towel.jpg';
 export { default as dress } from './dress.jpg';
-export { default as femaleshow } from './femaleshow.jpg';
+export { default as femaleshow } from './femaleShow.jpg';
 export { default as oven } from './oven.jpg';
 export { default as purplebag } from './purplebag.jpg';
