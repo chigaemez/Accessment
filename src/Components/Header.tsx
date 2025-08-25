@@ -4,7 +4,7 @@ import { logo } from '../assets/images'
 const Header = () => {
   return (
     <div className='flex md:flex-row flex-col gap-[20px]  justify-center items-center h-[139px] bg-[#FFFFFF] fixed top-0 left-0 right-0 z-50'>
-      <div className='flex  items-center justify-between w-[80%]'>
+      <div className='flex  items-center justify-between w-[90%]'>
         <div className='flex items-center gap-10'>
           <img src={menu} alt='Menu Icon' className='w-6 h-6' />
           <span className='flex items-center gap-2'>
