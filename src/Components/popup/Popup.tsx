@@ -246,7 +246,7 @@ const Popup = () => {
             <input
               type='text'
               placeholder='Chat to shop'
-              className='w-[226px] h-[36px] bg-[#FFFFFF80] outline-none b   rounded-[10px]   px-[16px] text-[12px] font-[500] font-popmedium leading-[100%] text-[#A3ACBA]'
+              className='w-[226px] md:w-[60%] h-[36px] bg-[#FFFFFF80] outline-none b   rounded-[10px]   px-[16px] text-[12px] font-[500] font-popmedium leading-[100%] text-[#A3ACBA]'
             />
             <img src={microphone} alt="" />
           </div>
