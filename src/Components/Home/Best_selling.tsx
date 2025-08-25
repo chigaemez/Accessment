@@ -13,7 +13,7 @@ const Best_selling = () => {
       })
   }, [])
   return (
-    <div className='flex flex-col  mt-[50px]  md:px-[90px] px-[10px]'>
+    <div className='flex flex-col  my-[50px]   md:px-[90px] px-[10px]'>
       <h1 className='text-[16px] font-[700] font-popbold leading-[100%]'>
         Best Selling
       </h1>
